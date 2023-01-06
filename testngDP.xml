@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Suite">
+	<listeners>
+		
+		<listener class-name="com.testng.prep.Listeners"></listener>
+	</listeners>
+		
+	
+	<test thread-count="3" parallel="classes" name="Test">
+		<classes>
+			<class name="com.testng.prep.DataProviderTest" />
+			<!-- <class name="com.testng.prep.ParameterizationTest"/> -->
+			<class name="com.testng.prep.ParallerTest1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
