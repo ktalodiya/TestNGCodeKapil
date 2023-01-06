@@ -10,6 +10,7 @@ public class DataProviderTest {
 		
 		System.out.println(username);
 		System.out.println(password);
+		System.out.println(username + password);
 	}
 	
 	
