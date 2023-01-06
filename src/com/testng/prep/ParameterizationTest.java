@@ -31,4 +31,16 @@ public class ParameterizationTest {
 	public void getLinkText() {
 		System.out.println(" Click on Admin link");
 	}
+	@Test(groups={"smoke"})
+	public void getLinkTexts() {
+		System.out.println(" Click on Admin link");
+	}
+	@Test(groups={"smoke"})
+	public void getLinkText1() {
+		System.out.println(" Click on Admin link");
+	}
+	@Test(groups={"smoke"})
+	public void getLinkText2() {
+		System.out.println(" Click on Admin link");
+	}
 }
